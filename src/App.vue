@@ -1,12 +1,19 @@
 <template>
-  <v-app>
-
-  </v-app>
+<v-app>
+  <Timeline/>
+</v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Timeline from './components/Timeline';
 
 export default {
+  name: 'App',
+  components: {
+    Timeline,
+  },
+  data: () => ({
+    //
+  }),
 };
 </script>

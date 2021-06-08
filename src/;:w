@@ -1,0 +1,23 @@
+<template>
+  <v-timeline dense>
+    <v-timeline-item>timeline item</v-timeline-item>
+    <v-timeline-item>
+        <template v-slot:opposite>
+            <span>逆サイド</span>
+        </template> 
+        <Card001/>
+    </v-timeline-item>
+    <v-timeline-item>timeline item</v-timeline-item>
+  <Card001/>
+  </v-timeline>
+</template>
+
+<script>
+import Card001 from './cards/Card001';
+export default {
+        name: 'App',
+        components: {
+                Card001,
+            }
+    };
+</script>
