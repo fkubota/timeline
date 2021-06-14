@@ -1,33 +1,31 @@
 <template>
     <v-hover>
-        <v-timeline-item icon="mdi-twitter" color='#208ea3'
+    <v-timeline-item icon="mdi-newspaper" color='#208ea3'
                      slot-scope="{ hover  }"
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong class='contents-title'>2019/05/01</strong>
+                    <strong class='contents-title'>2020/09/29</strong>
                 </v-col>
                 <v-col>
-                    <h1 class='contents-title'>令和初日にTwitterを開始</h1>
+                    <h1 class='contents-title'>[記事] 「Kaggle日記という戦い方」を公開</h1>
                     <div class="text-caption">
                         <div class='contents-text'>
-                            初日は完全に狙った。
+                            鳥コンペの反省会で反響が大きかったので記事にした。<br>
                         </div>
                     </div>
                     <v-btn
                             text
                             style="color: #208ea3"
                             @click="reveal = true"
-                            href='https://twitter.com/fkubota_'
+                            href='https://zenn.dev/fkubota/articles/3d8afb0e919b555ef068'
                             >
                             Learn More
                     </v-btn>
+
                 </v-col>
                 <v-col>
-                    <v-img src="./../../images/bg010.png" max-width='300' max-height='200' contain> </v-img>
-                </v-col>
-                <v-col>
-                    <Tweet :options="{width: 200}" id="1123253439796920320"></Tweet>
+                    <v-img src="./../../images/bk013.png" max-width='300' max-height='200' contain> </v-img>
                 </v-col>
             </v-row>
         </v-timeline-item>
@@ -35,11 +33,7 @@
 </template>
 
 <script>
-    import { Tweet  } from 'vue-tweet-embed'
     export default {
-            components: {
-                    Tweet,
-                }
         }
 </script>
 
