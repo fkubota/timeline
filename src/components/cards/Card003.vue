@@ -1,41 +1,19 @@
 <template>
-  <v-card
-    class="mx-auto"
-    outlined
-	dark
-	color="#208ea3"
-	max-width="500"
-  >
-    <v-list-item three-line>
-      <v-list-item-content>
-        <div class="text-overline mb-4">
-          OVERLINE
-        </div>
-        <v-list-item-title class="text-h5 mb-1">
-          Headline 5
-        </v-list-item-title>
-        <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-      </v-list-item-content>
-
-      <v-list-item-avatar
-        tile
-        size="80"
-        color="grey"
-      ></v-list-item-avatar>
-    </v-list-item>
-
-    <v-card-actions>
-      <v-btn
-        outlined
-        rounded
-        text
-      >
-        Button
-      </v-btn>
-    </v-card-actions>
-  </v-card>
+        <v-timeline-item icon="mdi-account-voice" color='#208ea3'>
+            <v-row class="pt-1">
+                <v-col cols="3">
+                    <strong>5pm</strong>
+                </v-col>
+                <v-col>
+                    <h1>New Icon</h1>
+                    <div class="text-caption">
+                        Mobile App hosdhfsadashdf skdjf lkasjdfk sajdlfjsa ksaldjf <br> lslkdjf laskdjf aslkdjalskdjflkasjd fasjd f 
+                    </div>
+                </v-col>
+            </v-row>
+        </v-timeline-item>
 </template>
 
 <script>
-  export default {}
+    export default {}
 </script>
