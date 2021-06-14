@@ -1,5 +1,8 @@
 <template>
-    <v-timeline-item color="#e4e2e2ff" small >
+    <v-hover>
+    <v-timeline-item color="#e4e2e2ff" small 
+                     slot-scope="{ hover  }"
+                     :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
                     <strong class='contents-title'>2019/03</strong>
@@ -16,8 +19,13 @@
                 </v-col>
             </v-row>
     </v-timeline-item>
+    </v-hover>
 </template>
 
 <script>
     export default {}
 </script>
+
+<style>
+@import "./../../css/mycss.css";
+</style>

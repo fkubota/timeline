@@ -5,20 +5,19 @@
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong class='contents-title'>2019/01</strong>
+                    <strong class='contents-title'>2019/11</strong>
                 </v-col>
                 <v-col>
-                    <strong class='contents-title'>量子コンピュータの勉強を開始</strong>
+                    <strong class='contents-title'>統計検定1級 2ヶ月チャレンジ失敗</strong>
                     <div class="text-caption">
-                        書籍: 量子情報科学入門 <br>
-
-                    connpassで開催されていた勉強会に参加
+                        数理統計のほうは、不合格のうちの上位15%には入っていたので次頑張れば受かりそう。<br>
+                        2ヶ月前は検定もわからない状態だったが、2ヶ月がんばった分知識はかなりついた。<br>
                     </div>
                     <v-btn
                             text
                             style="color: #208ea3"
                             @click="reveal = true"
-                            href="https://liberal-arts-for-tech.connpass.com/event/113694/"
+                            href='https://www.toukei-kentei.jp'
                             >
                             Learn More
                     </v-btn>

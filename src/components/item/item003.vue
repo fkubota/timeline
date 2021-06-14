@@ -1,5 +1,8 @@
 <template>
-        <v-timeline-item icon="mdi-briefcase" color='#208ea3'>
+    <v-hover>
+        <v-timeline-item icon="mdi-briefcase" color='#208ea3'
+                     slot-scope="{ hover  }"
+                     :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
                     <strong class='contents-title'>2018/04</strong>
@@ -25,6 +28,7 @@
                 </v-col>
             </v-row>
         </v-timeline-item>
+    </v-hover>
 </template>
 
 <script>

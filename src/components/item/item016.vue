@@ -5,12 +5,15 @@
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong class='contents-title'>1993/07/13</strong>
+                    <strong class='contents-title'>2020/01</strong>
                 </v-col>
                 <v-col>
-                    <strong class='contents-title'>沖縄で生まれる</strong>
+                    <strong class='contents-title'>ベイズ統計の勉強(2ヶ月ぐらい)</strong>
                     <div class="text-caption">
-                        1ヶ月ぐらい早く生まれたけど元気だったからヨシだったらしい
+                        [書籍]<br>
+                        - Pythonによるベイズ統計モデリング<br>
+                        - 基礎からのベイズ統計学
+                        - Pythonで体験するベイズ推論
                     </div>
                 </v-col>
             </v-row>

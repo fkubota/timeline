@@ -20,3 +20,11 @@
 .contents-text {
     color: #666666
 }
+
+.class1 {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.class2 {
+  background-color:white;
+}

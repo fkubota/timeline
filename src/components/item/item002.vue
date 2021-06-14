@@ -1,5 +1,8 @@
 <template>
-        <v-timeline-item icon="mdi-school" color='#208ea3'>
+    <v-hover>
+        <v-timeline-item icon="mdi-school" color='#208ea3'
+                     slot-scope="{ hover  }"
+                     :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
                     <strong class='contents-title'>2018/03</strong>
@@ -23,10 +26,11 @@
                     </v-btn>
                 </v-col>
                 <v-col>
-                    <v-img src="./../../images/bg002.png" max-width='300' max-height='200' contain> </v-img>
+                    <v-img src="./../../images/bg008.png" max-width='300' max-height='200' contain> </v-img>
                 </v-col>
             </v-row>
         </v-timeline-item>
+    </v-hover>
 </template>
 
 <script>

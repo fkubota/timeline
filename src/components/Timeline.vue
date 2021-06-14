@@ -1,7 +1,7 @@
 <template>
     <v-app>
     <v-app-bar color="#208ea3" dark app class='title'>
-      <v-toolbar-title>fkubota's Timeline</v-toolbar-title>
+      <v-toolbar-title justify='center'>fkubota's Timeline</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
@@ -31,18 +31,20 @@
     <v-content>
     <v-container>
     <v-timeline align-top dense class="mx-auto" >
-      <!-- <v-img src="./../images/bg100.jpg" > -->
 
             <item92/>
             <item92/>
             <item92/>
             <item92/>
             <item92/>
-            <item92/>
-            <item92/>
-            <item92/>
-            <item92/>
 
+            <item013/>
+            <item014/>
+            <item016/>
+            <item015/>
+            <item012/>
+            <item011/>
+            <item017/>
             <item007/>
             <item008/>
             <item006/>
@@ -53,7 +55,6 @@
             <item001/>
             <item009/>
 
-<!-- </v-img> -->
     </v-timeline>
 </v-container>
 </v-content>
@@ -70,6 +71,13 @@
     import item007 from './item/item007';
     import item008 from './item/item008';
     import item009 from './item/item009';
+    import item011 from './item/item011';
+    import item012 from './item/item012';
+    import item013 from './item/item013';
+    import item014 from './item/item014';
+    import item015 from './item/item015';
+    import item016 from './item/item016';
+    import item017 from './item/item017';
 
     import item92 from './item/item92';
     export default {
@@ -84,6 +92,13 @@
                     item007,
                     item008,
                     item009,
+                    item011,
+                    item012,
+                    item013,
+                    item014,
+                    item015,
+                    item016,
+                    item017,
 
                     item92,
                 }
