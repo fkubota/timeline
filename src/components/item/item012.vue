@@ -26,7 +26,7 @@
                     </v-btn>
                 </v-col>
                 <v-col>
-                    <v-img src="./../../images/bg001.png" max-width='300' max-height='200' contain> </v-img>
+                    <v-img src="./../../images/bg006.png" max-width='300' max-height='200' contain> </v-img>
                 </v-col>
             </v-row>
         </v-timeline-item>

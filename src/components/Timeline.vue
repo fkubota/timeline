@@ -38,11 +38,16 @@
             <item92/>
             <item92/>
 
+            <item021/>
+            <item019/>
             <item013/>
             <item014/>
+            <item022/>
             <item016/>
+            <item018/>
             <item015/>
             <item012/>
+            <item023/>
             <item011/>
             <item017/>
             <item007/>
@@ -78,6 +83,11 @@
     import item015 from './item/item015';
     import item016 from './item/item016';
     import item017 from './item/item017';
+    import item018 from './item/item018';
+    import item019 from './item/item019';
+    import item021 from './item/item021';
+    import item022 from './item/item022';
+    import item023 from './item/item023';
 
     import item92 from './item/item92';
     export default {
@@ -99,6 +109,11 @@
                     item015,
                     item016,
                     item017,
+                    item018,
+                    item019,
+                    item021,
+                    item022,
+                    item023,
 
                     item92,
                 }

@@ -5,7 +5,7 @@
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong class='contents-title'>2020/01</strong>
+                    <strong class='contents-title'>2020/02</strong>
                 </v-col>
                 <v-col>
                     <strong class='contents-title'>ベイズ統計の勉強(2ヶ月ぐらい)</strong>
