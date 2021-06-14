@@ -2,10 +2,10 @@
     <v-timeline-item color="#e4e2e2ff" small >
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong>2018/07</strong>
+                    <strong contents-title>2018/07</strong>
                 </v-col>
                 <v-col>
-                    <strong>ディジタル画像処理[改定第二版] 読了</strong>
+                    <strong class='contents-title'>ディジタル画像処理[改定第二版] 読了</strong>
                     <div class="text-caption">
                         画像処理の基本から応用まで書いてある。  
                         ボリューミーだが初学者にもおすすめ。

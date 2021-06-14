@@ -21,7 +21,7 @@
                     </v-btn>
                 </v-col>
                 <v-col>
-                    <v-parallax src="./../../images/bg02.jpg" height="150"> </v-parallax>
+                    <v-img src="./../../images/bg005.png" max-width='300' max-height='200' contain> </v-img>
                 </v-col>
             </v-row>
         </v-timeline-item>

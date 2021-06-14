@@ -64,10 +64,3 @@
                 }
         };
 </script>
-<style>
-#App {
-  background: url('./../images/bg100.jpg')
-    no-repeat center center fixed !important;
-  background-size: cover;
-}
-</style>

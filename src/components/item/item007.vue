@@ -2,10 +2,10 @@
     <v-timeline-item color="#e4e2e2ff" small >
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong>2019/03</strong>
+                    <strong class='contents-title'>2019/03</strong>
                 </v-col>
                 <v-col>
-                    <strong>とりあえず機械学習とpythonの基礎は少しできるようになった</strong>
+                    <strong class='contents-title'>とりあえず機械学習とpythonの基礎は少しできるようになった</strong>
                     <div class="text-caption">
                         読んだ本 <br>
                         - Pythonではじめる機械学習 <br>

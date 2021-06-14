@@ -2,10 +2,10 @@
     <v-timeline-item color="#e4e2e2ff" small >
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong>2019/01</strong>
+                    <strong class='contents-title'>2019/01</strong>
                 </v-col>
                 <v-col>
-                    <strong>量子コンピュータの勉強を開始</strong>
+                    <strong class='contents-title'>量子コンピュータの勉強を開始</strong>
                     <div class="text-caption">
                         書籍: 量子情報科学入門 <br>
 
