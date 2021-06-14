@@ -5,7 +5,7 @@
                     <strong class='contents-title'>2019/03</strong>
                 </v-col>
                 <v-col>
-                    <strong class='contents-title'>とりあえず機械学習とpythonの基礎は少しできるようになった</strong>
+                    <strong class='contents-title'>とりあえず機械学習とPythonの基礎は少しできるようになった</strong>
                     <div class="text-caption">
                         読んだ本 <br>
                         - Pythonではじめる機械学習 <br>

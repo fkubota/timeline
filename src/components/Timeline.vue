@@ -2,6 +2,31 @@
     <v-app>
     <v-app-bar color="#208ea3" dark app class='title'>
       <v-toolbar-title>fkubota's Timeline</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+              <v-btn icon href='https://twitter.com/fkubota_' v-bind="attrs" v-on="on">
+                  <v-icon>mdi-twitter</v-icon>
+              </v-btn>
+          </template>
+          <span>twitter</span>
+      </v-tooltip>
+      <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+              <v-btn icon href='https://github.com/fkubota' v-bind="attrs" v-on="on">
+                  <v-icon>mdi-github</v-icon>
+              </v-btn>
+          </template>
+          <span>GitHub</span>
+      </v-tooltip>
+      <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+              <v-btn icon href='https://www.kaggle.com/fkubota' v-bind="attrs" v-on="on">
+                  <v-icon>mdi-alpha-k</v-icon>
+              </v-btn>
+          </template>
+          <span>Kaggle</span>
+      </v-tooltip>
     </v-app-bar>
     <v-content>
     <v-container>
