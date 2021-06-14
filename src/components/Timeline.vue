@@ -32,12 +32,6 @@
     <v-container>
     <v-timeline align-top dense class="mx-auto" >
 
-            <item92/>
-            <item92/>
-            <item92/>
-            <item92/>
-            <item92/>
-
             <item021/>
             <item019/>
             <item013/>
@@ -89,7 +83,6 @@
     import item022 from './item/item022';
     import item023 from './item/item023';
 
-    import item92 from './item/item92';
     export default {
             name: 'App',
             components: {
@@ -115,7 +108,6 @@
                     item022,
                     item023,
 
-                    item92,
                 }
         };
 </script>
