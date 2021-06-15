@@ -8,7 +8,7 @@
                     <strong class='contents-title'>2020/04</strong>
                 </v-col>
                 <v-col>
-                    <h1 class='contents-title'>社内コンペを主催</h1>
+                    <h2 class='contents-title'>社内コンペを主催</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
                             vue.jsを用いたwebアプリケーションを開発した。  

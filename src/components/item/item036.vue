@@ -5,22 +5,21 @@
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong class='contents-title'>2020/12/22</strong>
+                    <strong class='contents-title'>2021/02/19</strong>
                 </v-col>
                 <v-col>
-                    <h2 class='contents-title'>「Carrier-Owl」 を公開</h2>
+                    <h2 class='contents-title'>「enjoy-vim」 を公開</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
-                            arxiv-->DeepL-->slack と通知するアプリ <br>
-                            社内で使うために作ったツールをOSS化した。<br>
-                            反響が大きくてビビった。
+                            少人数でvimを学ぶための勉強会を企画。 <br>
+                            問題を作成し解きながら学ぶスタイル。
                         </div>
                     </div>
                     <v-btn
                             text
                             style="color: #208ea3"
                             @click="reveal = true"
-                            href='https://github.com/fkubota/Carrier-Owl'
+                            href='https://github.com/fkubota/enjoy-Vim'
                             >
                             Learn More
                     </v-btn>
@@ -29,7 +28,7 @@
                     <v-img src="./../../images/bg014.png" max-width='300' max-height='200' contain> </v-img>
                 </v-col>
                 <v-col>
-                    <Tweet :options="{width: 200}" id='1341038462128930816'></Tweet>
+                    <Tweet :options="{width: 200}" id='1362705544557989892'></Tweet>
                 </v-col>
             </v-row>
         </v-timeline-item>

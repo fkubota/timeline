@@ -1,33 +1,31 @@
 <template>
     <v-hover>
-        <v-timeline-item icon="mdi-school" color='#208ea3'
+    <v-timeline-item color="#e4e2e2ff" small 
                      slot-scope="{ hover  }"
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong class='contents-title'>2016/03</strong>
+                    <strong class='contents-title'>2021/05/28</strong>
                 </v-col>
                 <v-col>
-                    <h2 class='contents-title'>琉球大学大学を卒業</h2>
+                    <strong class='contents-title'>[記事] 「Twitterのフォロワーに一様分布を依頼してみた」を公開しました</strong>
                     <div class="text-caption">
-                        <div class='contents-text'>
-                            理学部物質地球科学科物理系
-                        </div>
+                        カンムテックブログ。<br>
+                        適合度検定を使ったかんたんな実験をしてみました。
+                        
                     </div>
                     <v-btn
                             text
                             style="color: #208ea3"
                             @click="reveal = true"
-                            href="http://www.phys.u-ryukyu.ac.jp/wiki/index.php?FrontPage"
+                            href='https://tech.kanmu.co.jp/entry/2021/05/28/211334'
                             >
                             Learn More
                     </v-btn>
-                </v-col>
-                <v-col>
-                    <v-img src="./../../images/bg005.png" max-width='300' max-height='200' contain> </v-img>
+
                 </v-col>
             </v-row>
-        </v-timeline-item>
+    </v-timeline-item>
     </v-hover>
 </template>
 
@@ -36,5 +34,6 @@
 </script>
 
 <style>
-  @import "./../../css/mycss.css";
+@import "./../../css/mycss.css";
 </style>
+

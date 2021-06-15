@@ -8,7 +8,7 @@
                     <strong class='contents-title'>2020/09</strong>
                 </v-col>
                 <v-col>
-                    <h1 class='contents-title'>[Kaggle] 鳥コンペでチーム銅メダルを獲得</h1>
+                    <h2 class='contents-title'>[Kaggle] 鳥コンペでチーム銅メダルを獲得</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
                             114/1390 位。<br>

@@ -8,7 +8,7 @@
                     <strong class='contents-title'>2019/08</strong>
                 </v-col>
                 <v-col>
-                    <h1 class='contents-title'>[Kaggle] 分子コンペでソロ銅メダルを獲得</h1>
+                    <h2 class='contents-title'>[Kaggle] 分子コンペでソロ銅メダルを獲得</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
                             234/2477 位。<br>

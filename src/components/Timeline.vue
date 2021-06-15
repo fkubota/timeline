@@ -32,10 +32,19 @@
     <v-container>
     <v-timeline align-top dense class="mx-auto" >
 
+            <item043/>
+            <item039/>
+            <item042/>
+            <item041/>
+            <item038/>
             <item031/>
+            <item036/>
             <item029/>
             <item032/>
+            <item037/>
+            <item034/>
             <item033/>
+            <item035/>
             <item028/>
             <item027/>
             <item026/>
@@ -99,6 +108,15 @@
     import item031 from './item/item031';
     import item032 from './item/item032';
     import item033 from './item/item033';
+    import item034 from './item/item034';
+    import item035 from './item/item035';
+    import item036 from './item/item036';
+    import item037 from './item/item037';
+    import item038 from './item/item038';
+    import item039 from './item/item039';
+    import item041 from './item/item041';
+    import item042 from './item/item042';
+    import item043 from './item/item043';
 
     export default {
             name: 'App',
@@ -133,6 +151,15 @@
                     item031,
                     item032,
                     item033,
+                    item034,
+                    item035,
+                    item036,
+                    item037,
+                    item038,
+                    item039,
+                    item041,
+                    item042,
+                    item043,
 
                 }
         };

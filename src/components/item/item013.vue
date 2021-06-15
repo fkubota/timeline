@@ -8,7 +8,7 @@
                     <strong class='contents-title'>2020/05</strong>
                 </v-col>
                 <v-col>
-                    <h1 class='contents-title'>[Kaggle] イオンコンペでソロ銀メダルを獲得</h1>
+                    <h2 class='contents-title'>[Kaggle] イオンコンペでソロ銀メダルを獲得</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
                             22/2618 位。<br>

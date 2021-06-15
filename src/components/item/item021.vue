@@ -8,7 +8,7 @@
                     <strong class='contents-title'>2020/09/26</strong>
                 </v-col>
                 <v-col>
-                    <h1 class='contents-title'>[登壇] 鳥コンペ反省会</h1>
+                    <h2 class='contents-title'>[登壇] 鳥コンペ反省会</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
                             社会人になって初の登壇。  <br>

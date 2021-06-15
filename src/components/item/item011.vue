@@ -8,7 +8,7 @@
                     <strong class='contents-title'>2019/05/01</strong>
                 </v-col>
                 <v-col>
-                    <h1 class='contents-title'>令和初日にTwitterを開始</h1>
+                    <h2 class='contents-title'>令和初日にTwitterを開始</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
                             初日は完全に狙った。

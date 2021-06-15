@@ -5,27 +5,28 @@
                      :class="`${hover? 'class1': 'class2'}`">
             <v-row class="pt-1">
                 <v-col cols="3">
-                    <strong class='contents-title'>2021/02</strong>
+                    <strong class='contents-title'>2021/05</strong>
                 </v-col>
                 <v-col>
-                    <h2 class='contents-title'>[Kaggle] 鳥カエルコンペでチーム銀メダルを獲得</h2>
+                    <h2 class='contents-title'>[Kaggle] Indoorコンペでチーム銀メダルを獲得</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
-                            33/1143 位。<br>
-                            転職活動などでコミットが圧倒的に足りず完全にチームメンバーのおかげでこの結果になった。<br><br>
+                            16/1170 位。<br>
+                            仲良しこよしでチームを組んだので案の定楽しかった。<br>
+                            画像処理を少し使えて嬉しかった。
                             
                             [戦績]<br>
                             - ソロ銅: 1<br>
                             - ソロ銀: 1<br>
                             - チーム銅: 1<br>
-                            - チーム銀: 2<br>
+                            - チーム銀: 3<br>
                         </div>
                     </div>
                     <v-btn
                             text
                             style="color: #208ea3"
                             @click="reveal = true"
-                            href='https://www.kaggle.com/c/rfcx-species-audio-detection/leaderboard'
+                            href='https://www.kaggle.com/c/indoor-location-navigation/leaderboard'
                             >
                             Learn More
                     </v-btn>
@@ -46,3 +47,4 @@
 <style>
   @import "./../../css/mycss.css";
 </style>
+

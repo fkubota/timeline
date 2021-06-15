@@ -8,7 +8,7 @@
                     <strong class='contents-title'>2018/03</strong>
                 </v-col>
                 <v-col>
-                    <h1 class='contents-title'>琉球大学大学大学院を卒業</h1>
+                    <h2 class='contents-title'>琉球大学大学大学院を卒業</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
                             理工学研究科物質地球科学専攻物理系。<br>

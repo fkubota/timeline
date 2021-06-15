@@ -8,7 +8,7 @@
                     <strong class='contents-title'>2018/12</strong>
                 </v-col>
                 <v-col>
-                    <h1 class='contents-title'>Hmcomm株式会社</h1>
+                    <h2 class='contents-title'>Hmcomm株式会社</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
                             機械学習、プログラマ未経験で入社。  

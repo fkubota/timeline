@@ -8,7 +8,7 @@
                     <strong class='contents-title'>2021/02</strong>
                 </v-col>
                 <v-col>
-                    <h1 class='contents-title'>株式会社カンム</h1>
+                    <h2 class='contents-title'>株式会社カンム</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
                             フィンテックベンチャーのカンムに入社。<br>
