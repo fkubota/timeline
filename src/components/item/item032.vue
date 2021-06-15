@@ -11,8 +11,7 @@
                     <h2 class='contents-title'>株式会社カンム</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
-                            フィンテックベンチャーのカンムに入社。<br>
-                            機械学習エンジニアとして入社。 <br>  
+                            フィンテックベンチャーのカンムに機械学習エンジニアとして入社。<br>
                             バンドルカードの機械学習部分を担当する。
                         </div>
                     </div>
