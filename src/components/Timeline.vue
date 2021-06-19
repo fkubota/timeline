@@ -168,45 +168,23 @@
                     item045,
 
                 },
-            metaInfo: {
-                    meta: [
-                            {
-                                    property: 'og:site_name',
-                                    content: 'サイト名'
-                                },
-                            {
-                                    property: 'og:type',
-                                    content: 'website'
-                                },
-                            {
-                                    property: 'og:url',
-                                    content: 'https://fkubota.github.io/timeline/'
-                                },
-                            {
-                                    property: 'og:title',
-                                    content: 'タイトル名'
-                                },
-                            {
-                                    property: 'og:description',
-                                    content: '説明文'
-                                },
-                            {
-                                    property: 'og:image',
-                                    content: './../images/bg010.png'
-                                },
-                            {
-                                    property: 'fb:app_id',
-                                    content: 'アプリID'
-                                },
-                            {
-                                    name: 'twitter:card',
-                                    content: 'summary_large_image'
-                                },
-                            {
-                                    name: 'twitter:site',
-                                    content: '@fkubota_'
-                                }
-                        ]
-                }
+            metaInfo() {
+                    return {
+                            meta: [
+                                    // Twitter Card
+                                    {name: 'twitter:card', content: 'summary'},
+                                    {name: 'twitter:title', content: 'Vue Social Cards Example'},
+                                    {name: 'twitter:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'},
+                                    // image must be an absolute path
+                                    {name: 'twitter:image', content: './../images/bg010.png'},
+                                    // Facebook OpenGraph
+                                    {property: 'og:title', content: 'Vue Social Cards Example'},
+                                    {property: 'og:site_name', content: 'Vue Example'},
+                                    {property: 'og:type', content: 'website'},
+                                    {property: 'og:image', content:  './../images/bg010.png'},
+                                    {property: 'og:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'}
+                                ]
+                        }
+  }
         };
 </script>
