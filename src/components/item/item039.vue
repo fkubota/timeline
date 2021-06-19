@@ -15,8 +15,7 @@
                             title: 「Kaggle日記について」<br>
                             カレーちゃんさん主催の勉強会で登壇させていただきました。<br>
                             Kaggle日記の歴史や作ったモチベーションについて話しました。<br>
-
-                            スライドは<a href='https://speakerdeck.com/fkubota/kaggleri-ji-nituite'>こちら</a>
+                            スライドは<a href='https://speakerdeck.com/fkubota/kaggleri-ji-nituite'>こちら</a>。
                         </div>
                     </div>
                     <v-btn

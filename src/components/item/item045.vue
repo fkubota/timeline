@@ -17,7 +17,7 @@
                             教師データなしのルールベースでもそれなりにできますよという内容で発表した。<br>
                             楽しかったという声多数で嬉しかったです。
 
-                            スライドは<a href='https://speakerdeck.com/fkubota/rurubesuhua-xiang-chu-li-falsesusume'>こちら</a>
+                            スライドは<a href='https://speakerdeck.com/fkubota/rurubesuhua-xiang-chu-li-falsesusume'>こちら</a>。
                         </div>
                     </div>
                     <v-btn
