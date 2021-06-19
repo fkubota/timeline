@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.13",
+    "vue-meta": "^2.4.0",
     "vue-tweet-embed": "^2.4.0",
     "vuetify": "^2.4.0"
   },
