@@ -176,9 +176,8 @@
                                     {name: 'twitter:card', content: 'summary'},
                                     {name: 'twitter:title', content: 'Vue Social Cards Example'},
                                     {name: 'twitter:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'},
-                                    {name: 'twitter:image', content: './../images/bg010.png'},
                                 ]
                         }
-  }
+                }
         };
 </script>
