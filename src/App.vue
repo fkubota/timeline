@@ -24,6 +24,25 @@ export default {
                         {name: 'twitter:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'},
                         {name: "og:image", content: "https://saruwakakun.com/images/example.png"},
                     ]
+            },
+        metaInfo() {
+                return {
+                        meta: [
+                                { property: `og:locale`, content: `ja_JP` },
+                                { key: `og:type`, property: `og:type`, content: `website` },
+                                {
+                                        key: `og:site_name`,
+                                        property: `og:site_name`,
+                                        content: `my site`,
+                                    },
+                                {
+                                        key: `og:title`,
+                                        property: `og:title`,
+                                        content: `Home | my site`,
+                                    },
+                            ]
+                    }
             }
-};
+    };
+
 </script>
