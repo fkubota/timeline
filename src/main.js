@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify'
-// import Meta from 'vue-meta';
-import VueHead from 'vue-head'
-Vue.use(VueHead);
+import VueMeta from 'vue-meta';
+Vue.use(VueMeta, {
+  keyName: 'head'
+});
 
 Vue.config.productionTip = false
 
