@@ -2,6 +2,13 @@
     <v-app>
     <v-app-bar color="#208ea3" dark app class='title'>
       <v-toolbar-title justify='center'>fkubota's Timeline</v-toolbar-title>
+      <v-img 
+           src='./../images/icon.png'
+           max-height="50"
+           max-width="50"
+           contain
+        >
+      </v-img>
       <v-spacer></v-spacer>
       <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
