@@ -27,6 +27,14 @@
           </template>
           <span>Kaggle</span>
       </v-tooltip>
+      <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+              <v-btn icon href='https://github.com/fkubota/timeline' v-bind="attrs" v-on="on">
+                  <v-icon>mdi-code-tags</v-icon>
+              </v-btn>
+          </template>
+          <span>Source Code</span>
+      </v-tooltip>
     </v-app-bar>
     <v-content>
     <v-container>
