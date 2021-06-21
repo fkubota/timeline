@@ -12,6 +12,14 @@
       <v-spacer></v-spacer>
       <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
+              <v-btn icon href='https://fkubota.github.io/bookshelf/' v-bind="attrs" v-on="on">
+                  <v-icon>mdi-bookshelf</v-icon>
+              </v-btn>
+          </template>
+          <span>bookshelf</span>
+      </v-tooltip>
+      <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
               <v-btn icon href='https://twitter.com/fkubota_' v-bind="attrs" v-on="on">
                   <v-icon>mdi-twitter</v-icon>
               </v-btn>
