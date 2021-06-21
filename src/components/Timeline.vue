@@ -2,6 +2,13 @@
     <v-app>
     <v-app-bar color="#208ea3" dark app class='title'>
       <v-toolbar-title justify='center'>fkubota's Timeline</v-toolbar-title>
+      <v-img 
+           src='./../images/icon.png'
+           max-height="50"
+           max-width="50"
+           contain
+        >
+      </v-img>
       <v-spacer></v-spacer>
       <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
@@ -26,6 +33,14 @@
               </v-btn>
           </template>
           <span>Kaggle</span>
+      </v-tooltip>
+      <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+              <v-btn icon href='https://github.com/fkubota/timeline' v-bind="attrs" v-on="on">
+                  <v-icon>mdi-code-tags</v-icon>
+              </v-btn>
+          </template>
+          <span>Source Code</span>
       </v-tooltip>
     </v-app-bar>
     <v-content>
