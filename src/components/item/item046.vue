@@ -29,7 +29,7 @@
                     <v-img src="./../../images/bg014.png" max-width='300' max-height='200' contain> </v-img>
                 </v-col>
                 <v-col>
-                    <Tweet :options="{width: 200}" id='1341038462128930816'></Tweet>
+                    <Tweet :options="{width: 200}" id='1406931784458141697'></Tweet>
                 </v-col>
             </v-row>
         </v-timeline-item>
