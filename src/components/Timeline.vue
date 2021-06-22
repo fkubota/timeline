@@ -37,10 +37,18 @@
       <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
               <v-btn icon href='https://www.kaggle.com/fkubota' v-bind="attrs" v-on="on">
-                  <v-icon>mdi-alpha-k</v-icon>
+                    <font-awesome-icon :icon="[ 'fab', 'kaggle' ]" />
               </v-btn>
           </template>
           <span>Kaggle</span>
+      </v-tooltip>
+      <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+              <v-btn icon href='https://speakerdeck.com/fkubota' v-bind="attrs" v-on="on">
+                    <font-awesome-icon :icon="[ 'fab', 'speaker-deck' ]" />
+              </v-btn>
+          </template>
+          <span>Speaker Deck</span>
       </v-tooltip>
       <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
