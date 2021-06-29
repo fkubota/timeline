@@ -11,7 +11,7 @@
                     <h2 class='contents-title'>[登壇] 第二回分析コンペLT会</h2>
                     <div class="text-caption">
                         <div class='contents-text'>
-                            参加者数: 430人 <br>
+                            参加者数: 449人 <br>
                             title: 「ルールベース画像処理のススメ」<br>
                             カレーちゃんさん主催の勉強会で登壇させていただきました。<br>
                             教師データなしのルールベースでもそれなりにできますよという内容で発表した。<br>
