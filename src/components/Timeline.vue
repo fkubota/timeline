@@ -63,6 +63,7 @@
     <v-container>
     <v-timeline align-top dense class="mx-auto" >
 
+            <item049/>
             <item047/>
             <item048/>
             <item046/>
@@ -158,6 +159,7 @@
     import item046 from './item/item046';
     import item047 from './item/item047';
     import item048 from './item/item048';
+    import item049 from './item/item049';
 
     export default {
             name: 'App',
@@ -206,6 +208,7 @@
                     item046,
                     item047,
                     item048,
+                    item049,
 
                 },
         };
