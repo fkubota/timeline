@@ -25,7 +25,7 @@
                     </v-btn>
                 </v-col>
                 <v-col>
-                    <v-img :src="image" max-width='300' max-height='200' contain> </v-img>
+                    <v-img src="./../../images/bg014.png" max-width='300' max-height='200' contain> </v-img>
                 </v-col>
                 <v-col>
                   <Tweet :options="{width: 200}" :id='tweet_id'></Tweet>
@@ -44,12 +44,11 @@
         data () {
             return {
                 icon: 'mdi-github',
-                date_: '2021/07/01',
-                title: '「kaggler-slack-emoji」を公開',
-                body: 'kagglerがよく使うslack emoji をまとめたリポジトリ',
-                link: 'https://github.com/fkubota/kaggler-slack-emoji',
-                image: './../../images/bg014.png',
-                tweet_id: '1410541762087571462',
+                date_: '2021/07/21',
+                title: '「portfoio」を公開',
+                body: 'portfolioをvue+githubpagesで作成。評判はなかなかいい。',
+                link: 'https://fkubota.github.io/portfolio/',
+                tweet_id: '1417502325917118465',
 
               }
           },
