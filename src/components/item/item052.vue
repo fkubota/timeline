@@ -45,7 +45,7 @@
             return {
                 icon: 'mdi-github',
                 date_: '2021/07/21',
-                title: '「portfoio」を公開',
+                title: '「portfolio」を公開',
                 body: 'portfolioをvue+githubpagesで作成。評判はなかなかいい。',
                 link: 'https://fkubota.github.io/portfolio/',
                 tweet_id: '1417502325917118465',
