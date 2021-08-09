@@ -1,3 +1,4 @@
+<template>
     <v-hover>
     <v-timeline-item color="#e4e2e2ff" small 
                      slot-scope="{ hover  }"
