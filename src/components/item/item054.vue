@@ -12,9 +12,14 @@
                     <div class="text-caption">
                       {{ body }}
                     </div>
-                </v-col>
-                <v-col>
-                  <Tweet :options="{width: 200}" :id='tweet_id'></Tweet>
+                    <v-btn
+                            text
+                            style="color: #208ea3"
+                            @click="reveal = true"
+                            :href='link'
+                            >
+                            Learn More
+                    </v-btn>
                 </v-col>
             </v-row>
     </v-timeline-item>
@@ -22,17 +27,15 @@
 </template>
 
 <script>
-  import { Tweet  } from 'vue-tweet-embed'
   export default {
       components: {
-          Tweet
         },
     data () {
         return {
-            date_: '2021/07/31',
-            title: 'enjoy-vim#5を開催しました',
-            body: '今回も盛り上がりました。vimiumに興味持つ人もかなり多いですね。',
-            tweet_id: '1421300766363426828'
+            date_: '2021/08/10',
+            title: '[記事] 休日に行う「ゆるゆる朝会」のススメ',
+            body: '6人のメンバーで行っている休日の朝活がめちゃいいので記事書いた。',
+            link: 'https://note.com/f_kubota/n/nfce9b9839930',
           }
       }
     }

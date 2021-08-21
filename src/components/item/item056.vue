@@ -10,7 +10,7 @@
                 <v-col>
                   <strong class='contents-title'>{{ title }}</strong>
                     <div class="text-caption">
-                      {{ body }}
+                      <a href='https://note.com/f_kubota/n/nfce9b9839930'>ゆるゆる朝会のメンバーのアイコンを3つ作りました。好評でとてもうれしいです。</a>
                     </div>
                 </v-col>
                 <v-col>
@@ -29,10 +29,9 @@
         },
     data () {
         return {
-            date_: '2021/07/31',
-            title: 'enjoy-vim#5を開催しました',
-            body: '今回も盛り上がりました。vimiumに興味持つ人もかなり多いですね。',
-            tweet_id: '1421300766363426828'
+            date_: '2021/08/20',
+            title: 'Twitterの友人のアイコンを3つ作りました',
+            tweet_id: '1428490683111727107'
           }
       }
     }
