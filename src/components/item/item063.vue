@@ -33,10 +33,10 @@
     data () {
         return {
 
-            date_: '2021/09/21',
-            title: '大数の強法則、弱法則の復習',
-            body: '毎回どっちかわからなくなるので復習した。復習に良い記事をメモ。',
-            link: 'https://physnotes.jp/stat/lln/',
+            date_: '2021/10/03',
+            title: '「進化論」(ダーウィニズム)について勉強してみた',
+            body: 'ダーウィニズムを起点にセントラルドグマなどの基本的な生物学についても勉強した。bookshelfに簡単にメモしている。(No.012)',
+            link: 'https://fkubota.github.io/bookshelf/',
 
           }
       }
