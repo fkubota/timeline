@@ -1,10 +1,6 @@
 # timeline
 url: https://fkubota.github.io/timeline/ 
 
-## insert twitter card
-```bash
-python3 insert_twitter_card.py
-```
 
 ## Project setup
 ```
